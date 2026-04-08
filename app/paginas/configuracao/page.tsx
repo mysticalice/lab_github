@@ -27,21 +27,23 @@ export default function Configuracao() {
           </div>
         </section>
 
-         {/* Passo 1.1 */}
-         <section className="space-y-4">
-          <div className="flex items-center-col gap-4"> </div>
-            <span className="flex h-8 w-8 items center text-white w-7 h-7 rounded-full flex items-center justify-center text-sm">1.1</span>
-          <h2 className="text-xl font-bold"> 
-            Reiniciar o Visual studio</h2>
-
+        {/* Passo 1 */}
+        <section className="space-y-4">
+          <h2 className="text-xl font-semibold flex items-center gap-2">
+            <span className="bg-blue-600 text-white w-7 h-7 rounded-full flex items-center justify-center text-sm">1.1</span>
+           Reiniciar o Visual studio
+          </h2>
           <div className="bg-black rounded-lg p-4 font-mono text-sm border border-slate-700">
             <p className="text-gray-500 mb-2">Lembre-se de reiniciar o VS Code após a instalação concluir!</p>
-             <p className="text-gray-500 mb-2">No terminal do VS Code verifique se o github foi instalado! </p>
+            <p className="text-gray-500 mb-2">No terminal do VS Code verifique se o github foi instalado! </p>
             <code className="text-green-400">
-              git --version
+             git --version
             </code>
           </div>
         </section>
+
+
+         
 
 
         {/* Passo 2 */}
